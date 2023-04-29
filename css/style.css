@@ -597,6 +597,26 @@ display: flex;
 .socials-icon {
    fill: #f4f4fd;
 }
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+
+.footer-form-text {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footer-btn-sub {
+    background: #4D5AE5;
+    border-radius: 4px;
+    color: #FFFFFF;
+    letter-spacing: 0.04em;
+}
  
 
 
@@ -791,6 +811,7 @@ width: calc((100% - 48px) / 3);
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: var(--cubic-slov);
+    margin-bottom: 24px;
     
 }
 
