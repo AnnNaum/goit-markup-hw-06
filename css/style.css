@@ -545,6 +545,7 @@ display: flex;
 .footer-text {
     letter-spacing: 0.02em;
     display: block;
+    width: 264px;
     
 }
 
@@ -602,7 +603,7 @@ display: flex;
 .footer-form {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 16px;
     
 }
 
@@ -620,7 +621,9 @@ display: flex;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     padding: 8px 16px;
+    color: var(--color-white);
 }
+
 .footer-input::placeholder {
     color: var(--color-white);
     
@@ -633,6 +636,18 @@ display: flex;
     align-items: center;
     padding: 8px 24px;
     gap: 16px;
+    background-color: var(--color-iris);
+    color: var(--color-white);
+    border-radius: 4px;
+    border-color: var(--color-iris);
+
+    transition: var(--cubic-slov);
+}
+
+.footer-btn-sub:hover,
+.footer-btn-sub:focus {
+    background-color: var(--color-ocean);
+    border-color: var(--color-ocean);
 }
  
 
@@ -791,7 +806,7 @@ width: calc((100% - 48px) / 3);
 
     position: absolute;
 
-    top: calc(50% - 292px);
+    top: calc(50% - 331px);
     left: calc(50% - 204px);
     padding: 24px;
 
@@ -960,6 +975,17 @@ outline-color: var(--color-iris);
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.04em;
+}
+
+.modal-form-agreement-link {
+    color: var(--color-iris);
+
+    transition: var(--cubic-slov);
+}
+
+.modal-form-agreement-link:hover,
+.modal-form-agreement-link:focus {
+    color: var(--color-ocean);
 }
 
 
